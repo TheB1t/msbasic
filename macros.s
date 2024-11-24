@@ -75,4 +75,3 @@ ERROR_MESSAGES:
 		.byte	.strat(str,I)+$80
 	.endrep
 .endmacro
-

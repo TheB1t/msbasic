@@ -27,3 +27,7 @@
 .ifdef SYM1
         .byte   0,0,0
 .endif
+
+.ifdef BARE6502
+.include "bare6502_bios.s"
+.endif
